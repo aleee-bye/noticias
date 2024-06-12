@@ -1,0 +1,31 @@
+/* Estilos */
+body {
+    font-family: Arial, sans-serif;
+}
+
+label {
+    margin-right: 20px;
+    cursor: pointer;
+    color: blue; /* Color de las pestañas */
+}
+
+#contador {
+    display: none;
+}
+
+#tab2:checked ~ #contador {
+    display: block;
+}
+
+.full-news {
+    display: none; /* Por defecto, oculta el contenido completo de las noticias */
+}
+
+.read-more {
+    color: blue; /* Color del enlace "Leer más" */
+    cursor: pointer;
+}
+.full-news:target {
+    display: block; /* Muestra el contenido completo cuando se hace clic en el enlace "Leer más" */
+}
+
